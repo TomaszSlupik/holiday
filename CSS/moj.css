@@ -1,0 +1,188 @@
+body {
+	background-color: grey;
+	font-size: 36px;
+	background-image: url("../tlo.jpg");
+	background-size: cover;
+}
+
+#blok {
+	width: 500px;
+	height: 2.2em;
+	line-height: 2.2em;
+	margin-top: -20%;
+	margin-left: 13%;
+
+	box-shadow: 0 0 40px black;
+	border-radius: 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.75);
+	overflow: hidden;
+	border-radius: 10px;
+	font-style: italic;
+}
+
+#blok > p {
+	margin: 0;
+	white-space: nowrap;
+}
+
+@keyframes przesun {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+#blok > p {
+	margin: 0;
+	white-space: nowrap;
+	animation: przesun 5s linear infinite;
+}
+
+a:link {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+.odnosniki {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	display: flex;
+	background-color: rgba(0, 238, 255, 0.75);
+	border-radius: 10px;
+	border: 2px solid black;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "Alex Brush", cursive;
+	font-family: "Dancing Script", cursive;
+	font-weight: bold;
+}
+
+.all {
+	margin-left: 12%;
+}
+
+.egzo {
+	margin-left: 24%;
+}
+
+.opis {
+	margin-left: 62%;
+	margin-top: 10%;
+	font-size: 20px;
+	font-family: "Alex Brush", cursive;
+	font-family: "Dancing Script", cursive;
+	background-color: white;
+	box-shadow: 0 0 40px black;
+	border-radius: 10px;
+	font-weight: bold;
+	width: 250px;
+	height: 100%;
+}
+
+.last {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: 10%;
+	box-shadow: 0 0 40px black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.img1 {
+	transition: transform 0.3s;
+}
+
+.img1:hover {
+	transform: scale(1.25);
+}
+
+.turcja {
+	margin-left: 4%;
+}
+
+.img2 {
+	transition: transform 0.3s;
+}
+
+.img2:hover {
+	transform: scale(1.25);
+}
+
+.kreta {
+	margin-left: 4%;
+}
+.img3 {
+	transition: transform 0.3s;
+}
+
+.img3:hover {
+	transform: scale(1.25);
+}
+
+.portugalia {
+	margin-left: 4%;
+}
+
+.img4 {
+	transition: transform 0.3s;
+}
+
+.img4:hover {
+	transform: scale(1.25);
+}
+
+.cena {
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
+	font-size: 20px;
+	font-family: "Alex Brush", cursive;
+	font-family: "Dancing Script", cursive;
+	background-color: white;
+	box-shadow: 0 0 40px black;
+	border-radius: 10px;
+	font-weight: bold;
+	width: 200px;
+	height: 100%;
+	text-align: center;
+}
+
+.tur,
+.kre,
+.por {
+	margin-left: 4%;
+}
+
+.jedzenie {
+	display: inline-block;
+	width: 400px;
+	height: 210px;
+	margin-top: 4%;
+	margin-left: 10%;
+	box-shadow: 0 0 40px black;
+	border-radius: 10px;
+	font-weight: bold;
+
+	background-color: white;
+}
+
+.drugie {
+	margin-left: 4%;
+}
+
+.mniam {
+	margin-top: 1%;
+	font-family: "Alex Brush", cursive;
+	font-family: "Dancing Script", cursive;
+	font-size: 17px;
+	margin-left: 23%;
+}
